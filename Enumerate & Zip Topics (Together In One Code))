@@ -1,0 +1,6 @@
+heros = ["Bloom", "Stella", "Flora", "Layla"]
+powers = ["Dragon Fire", "Sun", "Nature", "Water"]
+power_value = ["96", "91", "89", "88"]
+
+for order, (fairies, skills) in enumerate(zip(heros, powers), start=1):
+    print(f"{order}. Winx fairy {fairies} has the power of ruling {skills}")
