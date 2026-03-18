@@ -6,3 +6,4 @@ for order, (name1, name2, name3) in enumerate(zip(course,instructor,full_name), 
     print(f"{order}- Class Id: {name1}")
     print(f"Instructor: {name2}")
     print(f"Course's Full Name: {name3}")
+    print("-" * 20)
