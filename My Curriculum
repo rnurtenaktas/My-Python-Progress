@@ -1,0 +1,8 @@
+course = ("MUT3502", "MUT3008", "MUT3506", "MUT3004", "MUT3006")
+instructor = ("Göksenin Abdal", "Muazzez Uslu", "Sezer Sabriye İkiz", "Suat Cakova", "Tülay Akkoyun")
+full_name = ("Medical Translation", "Subtitle, Mass Media and Social Media Translation", "English Literature Survey", "Consecutive Interpreting", "French Written Translation")
+
+for order, (name1, name2, name3) in enumerate(zip(course,instructor,full_name), start=1):
+    print(f"{order}- Class Id: {name1}")
+    print(f"Instructor: {name2}")
+    print(f"Course's Full Name: {name3}")
