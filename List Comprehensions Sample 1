@@ -1,0 +1,4 @@
+fields = ["video games localization", "legal translation", "Technical translation"]
+
+refined = [field.title() for field in fields]
+print(refined)
