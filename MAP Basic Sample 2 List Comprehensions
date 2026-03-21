@@ -1,0 +1,8 @@
+def numbers(nums):
+    nums = nums * 4.11
+    return round(nums,1)
+    
+my_nums = [12, 7]
+
+result = list(map(numbers, my_nums))
+print(result)
