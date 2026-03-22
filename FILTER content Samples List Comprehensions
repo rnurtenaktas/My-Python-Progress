@@ -1,0 +1,24 @@
+#Basic SAMPLE 1
+
+user_data = [2006, 2003, 2009, 1998, 1991, 2002, 2010, 1988]
+
+def check(year):
+    if year > 2005:
+        return False
+    elif year < 1990:
+        return False
+    else:
+        return True
+        
+see = list(filter(check, user_data))
+print(see)
+        
+#Basic SAMPLE 2 
+
+user_data = [2006, 2003, 2009, 1998, 1991, 2002, 2010, 1988]
+
+def check(year):
+    return year < 2005 and year > 1990
+    
+see = list(filter(check, user_data))
+print(see)
