@@ -1,0 +1,4 @@
+names = ["Leon", "Ada", "Clarie", "Jill", "Simmons", "Victor", "Grace"]
+surnames = ["S Kennedy", "Wong", "Redfield", "Valentine", "Derek", "Gideon", "Ashcraft"]
+selected = list(filter(lambda pair: "o" in pair[0].lower() or "o" in pair[1].lower(), (zip(names, surnames))))
+print(selected)
