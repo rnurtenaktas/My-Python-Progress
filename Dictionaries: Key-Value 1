@@ -1,0 +1,27 @@
+info = {
+    "name": "Reyhan",
+    "age": 22,
+    "experience": 0,
+    "last_name": "Aktaş",
+    4 : "hey"
+    
+}
+
+info["experience"] = 1 # Here this is how we update key's value to 1 from 0. This method is ALSO used to add a new key to dictionary.
+
+
+heyo = info.get("birth_year", "This information has not been added yet.") # Here this is how we call a non-existed key however not getting any error, instead code continues to execute. 
+# The second argument is the default value that is printed unless the key we call exists. If there is no default value, "None" is printed.
+
+print(info["name"])
+print(info[4])
+print(heyo)
+print(info["experience"])
+
+# Here keys() and values () methods display objects only belonging to them.
+
+print(info.keys()) 
+print(info.values())
+### 
+# When used, items() method displays all key-value pairs.
+print(info.items())
